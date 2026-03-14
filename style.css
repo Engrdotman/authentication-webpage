@@ -4,25 +4,23 @@
     margin: 0;
 }
 body{
-    margin: auto;
     width: 100%;
     background-color:black;
     min-height: 100vh;
 }
 .header-nav{
     width: 90%;
-    height: 40px;
-    margin: 5px 10px 5px 10px;
-    display: block;
+    margin: 10px auto;
     background-color: white;
     color: blue;
     display: flex;
     justify-content: space-between;
-    padding: 5px 10px 5px 10px;
+    padding: 10px;
+    border-radius: 8px;
 }
 .Sign-in-btn{
     font-size: 14px;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 10px;
     border-radius: 5px;
     border: 1px solid rgb(153, 153, 162);
     cursor: pointer;
@@ -34,11 +32,11 @@ body{
 
 .get-start-btn{
     font-size: 14px;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 10px;
     background-color: #0077ff;
     color: white;
     border-radius: 5px;
-    border:1px solid #0077ff;
+    border: none;
     cursor: pointer;
 }
 
@@ -75,21 +73,22 @@ body{
     color: blue;
 }
 
-.main-content, p{
+.main-content p{
     margin-bottom: 20px;
     font-size: 12px
 }
 
 .form{
-    width:90%;
+    width:100%;
     display: flex;
     flex-direction: column;
+    max-width: 500px;
 }
 .form label{
     color: blue;
     text-align: left;
-    margin-top: 5px;
-    font-size: 12px;
+    margin-top: 6px;
+    font-size: 13px;
 }
 #confirm-button{
     width: 50px;
@@ -97,19 +96,18 @@ body{
 }
 .form input{
     width: 100%;
-    margin: 5px 0px 5px 0px;
+    margin-top: 5px;
     padding: 5px;
     border-radius: 5px;
     border: 1px solid rgb(153, 153, 162);
     outline: none;
 }
 .form input:focus{
-    width: 100%;
     border: 1px solid rgb(174, 36, 174);
     
 }
 .create-account-btn {
-    width: 90%;
+    width: 100%;
     margin-top: 15px;
     padding: 5px;
     border-radius: 6px;
