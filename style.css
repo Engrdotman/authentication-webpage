@@ -10,7 +10,7 @@ body{
 }
 .header-nav{
     width: 90%;
-    margin: 10px 5px;
+    margin: 5px 5px;
     background-color: white;
     color: blue;
     display: flex;
