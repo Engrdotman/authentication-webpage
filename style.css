@@ -104,6 +104,7 @@ body{
     outline: none;
 }
 .form input:focus{
+    width: 100%;
     border: 1px solid rgb(174, 36, 174);
     
 }
