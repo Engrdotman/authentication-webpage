@@ -4,23 +4,25 @@
     margin: 0;
 }
 body{
+    margin: 5px 10px;
     width: 100%;
-    background-color:black;
-    min-height: 100vh;
+    background-color: #5f30ccb7;
 }
 .header-nav{
     width: 90%;
-    margin: 5px 5px;
+    height: 40px;
+    border-radius: 10%;
+    margin: 5px 10px;
+    display: block;
     background-color: white;
     color: blue;
     display: flex;
     justify-content: space-between;
-    padding: 10px 5px;
-    border-radius: 8px;
+    padding: 5px 10px;
 }
 .Sign-in-btn{
     font-size: 14px;
-    padding: 5px 10px;
+    padding: 5px 10px 5px 10px;
     border-radius: 5px;
     border: 1px solid rgb(153, 153, 162);
     cursor: pointer;
@@ -32,34 +34,35 @@ body{
 
 .get-start-btn{
     font-size: 14px;
-    padding: 5px 10px;
-    background-color: #0077ff;
+    padding: 5px 10px 5px 10px;
+    background-color: #5f30ccb7;
     color: white;
     border-radius: 5px;
-    border: none;
+    border:none;
     cursor: pointer;
 }
 
 .get-start-btn:hover{
-    background-color: #0056b3;
+    background-color: #4a24a8;
 }
 
 .image{
     width: 20px;
     border: 1px solid blue;
     border-radius: 50%;
+    margin-left: 15px;
 }
 .image-2{
     width: 30px;
     border: 1px solid blue;
-    border-radius: 100%;
+    border-radius: 25%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 .main-content{
     width: 90%;
     background-color: rgb(249, 246, 246);
-    margin: 10px 10px 10px 10px;
+    margin: 10px 5px;
     text-align: center;
     border-radius: 25px;
     padding: 20px;
@@ -69,59 +72,52 @@ body{
 
 .h2{
     margin-bottom: 20px;
-    color: blue;
+    color: black;
 }
 
 .main-content p{
-    margin-bottom: 20px;
-    font-size: 12px
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #888;
 }
 
 .form{
-    width:100%;
     display: flex;
     flex-direction: column;
 }
 .form label{
-    color: blue;
+    color: black;
     text-align: left;
-    margin-top: 6px;
-    font-size: 13px;
+    margin-top: 5px;
+    font-size: 12px;
 }
 #confirm-button{
     width: 50px;
     color: black;
 }
 .form input{
-    min-width: 500px;
     width: 100%;
-    margin-top: 5px;
+    margin: 5px 0px 5px 0px;
     padding: 5px;
     border-radius: 5px;
     border: 1px solid rgb(153, 153, 162);
-    outline: none;
 }
 .form input:focus{
     border: 1px solid rgb(174, 36, 174);
-    
-}
-.agree-btn{
-    display: flex;
-    gap: 10px;
-    flex-direction: row;
+    outline: none;
 }
 .create-account-btn {
-    width: 100%;
     margin-top: 15px;
+    margin-bottom: 10px;
     padding: 5px;
     border-radius: 6px;
     border: none;
-    background-color: #0077ff;
+    background-color: #5a24d6e2;
     color: white;
     cursor: pointer;
 }
 .create-account-btn:hover {
-    background-color: #0056b3;
+    background-color: #4a24a8;
 }
 #remove-underline {
     text-decoration: none;
@@ -144,6 +140,10 @@ body{
 .google-btn:hover {
     background-color: rgb(153, 153, 162);
     color: white;
+}
+.google-btn a {
+    color: black;
+    text-decoration: none;
 }
 .facebook-btn {
     width: 100%;
@@ -171,5 +171,13 @@ footer{
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    text-decoration: none;
+}
+footer p{
+    color: #888;
+    font-size: 12px;
+}
+footer a{
+    color: #0077ff;
     text-decoration: none;
 }
