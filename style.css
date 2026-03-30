@@ -69,7 +69,10 @@ body{
     font-family: sans-serif;
     font-size: 24px;
 }
-
+.agree-btn{
+    display: flex;
+    justify-content: flex-start;
+}
 .h2{
     margin-bottom: 20px;
     color: black;
