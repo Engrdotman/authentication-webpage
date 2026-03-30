@@ -107,7 +107,8 @@ body{
 }
 .agree-btn{
     display: flex;
-    gap:10px;
+    gap: 10px;
+    flex-direction: row;
 }
 .create-account-btn {
     width: 100%;
