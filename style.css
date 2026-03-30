@@ -69,11 +69,18 @@ body{
     font-family: sans-serif;
     font-size: 24px;
 }
+/* to close the gap and align the checkbox and the agree text*/
 .agree-btn{
-    margin: 0;
     display: flex;
     justify-content: flex-start;
-    gap:0px;
+    align-items: center;
+    margin-top: 10px;
+    gap: 0px;
+}
+.agree-btn label{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 .h2{
     margin-bottom: 20px;
